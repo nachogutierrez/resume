@@ -1,0 +1,117 @@
+body {
+    background: silver;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.p1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.p2 {
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.p3 {
+    font-family: Menlo, Monaco, 'Courier New', monospace;
+}
+
+.s1 {
+    font-size: 1.1rem;
+}
+
+.s2 {
+    font-size: 0.8rem;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.primary {
+    color: #99bbff;
+}
+
+.primary-background {
+    background: #99bbff;
+}
+
+.highlight-blue {
+    color: #0073e6;
+}
+
+.highlight-gray {
+    color: #737373;
+}
+
+.resume {
+    background: #FBFBF8;
+    overflow: hidden;
+    padding: 3vw;
+}
+
+.resume h1, .resume h2, .resume h3, .resume h4, .resume h5, .resume p {
+    margin: 0;
+    padding: 0;
+}
+
+.resume ul {
+    margin: 0;
+}
+
+.resume .header {
+    display:flex; 
+    flex-wrap: wrap;
+    align-items: center; 
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.resume .header .left {
+    display: flex; 
+    align-items: center;
+}
+
+.resume .header .right {
+    /* TODO: complete */
+}
+
+.resume .section .section-header {
+    display: flex;
+    flex-wrap :wrap;
+    align-items: center;
+}
+
+.resume .section .section-header .name {
+    margin-right: 16px;
+    padding: 0;
+}
+
+.resume .section .section-header .divider {
+    height: 2px;
+}
+
+.resume .section .section-entry {
+    display: flex;
+    align-items: flex-start;
+    margin: 16px 0;
+}
+
+.resume .section .section-entry .left {
+    margin-top: 8px;
+    margin-right: 16px;
+}
+
+.resume .section .section-entry .right .company {
+    display: flex;
+    align-items: center;
+}
+
+.resume .section .section-entry .right .company .logo {
+    margin-right: 8px;
+}
+
+#resume {
+    width: 768px;
+}

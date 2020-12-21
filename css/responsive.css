@@ -1,0 +1,25 @@
+@media (max-width: 800px) {
+
+    .resume .section .section-entry {
+        flex-direction: column;
+    }
+
+    .resume .section .section-header .divider {
+        width: 100%;
+    }
+}
+
+@media (min-width: 801px) {
+
+    .resume {
+        box-shadow: 0 0 16px 0 black;
+    }
+
+    .resume .section .section-header .divider, .resume .section .section-entry .right {
+        width: 75%;
+    }
+
+    .resume .section .section-entry, .resume .section .section-header {
+        justify-content: flex-end;
+    }
+}
